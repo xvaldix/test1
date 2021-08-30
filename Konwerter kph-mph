@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+print('Kowerter km/h na mph.')
+km=(input('Podaj prędkość w km na h: '))
+km=km.replace(',','.')
+km=float(km)
+wartosc=km*0.6214
+print('Prędkość {:.1f} km/h wyrażona w mph to: {:.1f} mph.'.format(km, wartosc))
+slogan='Pamiętaj aby jeździć ostrożnie!'
+lb_sl=len(slogan)
+print('{:>35}'.format(slogan[:(lb_sl)]))
